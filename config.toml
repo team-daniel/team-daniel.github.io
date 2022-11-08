@@ -1,0 +1,57 @@
+baseURL = 'https://team-daniel.github.io/'
+languageCode = 'en'
+title = "Daniel's Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params.homeInfoParams]
+Title = "Hello Stranger"
+Content = "Welcome to my blog! Here you will find a lot of cool information and tutorials."
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/dan_bethell"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/daniel-bethell/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/team-daniel"
+
+[[params.socialIcons]]
+name = "orcid"
+url = "https://orcid.org/0000-0002-0685-5312"
+
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'categories'
+  name = 'Categories'
+  url = '/categories/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'faq'
+  name = 'FAQ'
+  url = '/faq/'
+  weight = 40
