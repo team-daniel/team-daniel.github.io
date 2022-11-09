@@ -6,7 +6,7 @@ paginate = 10
 
 [params.homeInfoParams]
 Title = "Hello Stranger"
-Content = "Welcome to my blog! Here you will find a lot of cool information and tutorials."
+Content = "Hi, this is Daniel! Welcome to my blog, this is where you will find all of my tutorials and other generic posts regarding AI and ML."
 
 [[params.socialIcons]]
 name = "twitter"
@@ -34,6 +34,12 @@ home = [ "HTML", "RSS", "JSON" ]
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
+  env = "production"
+
+[params.assets]
+  favicon = "static\favicon.ico"
+  favicon16x16 = "static\favicon-16x16.png"
+  favicon32x32 = "static\favicon-32x32.png"
 
 [menu]
 [[menu.main]]
