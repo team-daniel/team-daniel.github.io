@@ -24,12 +24,16 @@ url = "https://github.com/team-daniel"
 name = "orcid"
 url = "https://orcid.org/0000-0002-0685-5312"
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 
 [params]
   ShowBreadCrumbs = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
 
 [menu]
 [[menu.main]]
@@ -55,3 +59,9 @@ url = "https://orcid.org/0000-0002-0685-5312"
   name = 'FAQ'
   url = '/faq/'
   weight = 40
+
+  [[menu.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 50

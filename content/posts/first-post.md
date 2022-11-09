@@ -8,6 +8,7 @@ draft: false
 #    caption: "this is the caption"
 tags: ['html', 'css']
 categories: ['web dev']
+showToc: true
 ---
 
 ## Heading
