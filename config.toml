@@ -1,4 +1,4 @@
-baseURL = 'https://team-daniel.github.io/'
+baseURL = 'https://classy-mooncake-9e07d5.netlify.app/'
 languageCode = 'en'
 title = "Daniel's Blog"
 theme = "PaperMod"
