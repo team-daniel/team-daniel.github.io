@@ -1,4 +1,4 @@
-baseURL = 'https://daniel-bethell.netlify.app/'
+baseURL = 'https://www.daniel-bethell.dev/'
 languageCode = 'en'
 title = "Daniel's Blog"
 theme = "PaperMod"
