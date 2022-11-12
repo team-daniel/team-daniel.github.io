@@ -9,6 +9,10 @@ draft: false
 tags: ['html', 'css']
 categories: ['web dev']
 showToc: true
+keywords:
+- html
+- seo
+description: "This is my first post!"
 ---
 
 ## Heading

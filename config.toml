@@ -27,6 +27,11 @@ url = "https://orcid.org/0000-0002-0685-5312"
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 
 [params]
   ShowBreadCrumbs = true
